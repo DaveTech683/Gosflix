@@ -286,36 +286,57 @@ export default function Navbar() {
         </div>
 
         {/* Mobile Menu */}
-        {mobileOpen && (
-          <div
-            className="md:hidden border-t"
+{mobileOpen && (
+  <div
+    className="md:hidden border-t"
+    style={{
+      background: "#0a0a0a",
+      borderColor: "rgba(255,255,255,0.08)",
+    }}
+  >
+    <div className="px-4 py-3 space-y-1">
+      {NAV_LINKS.map((link) => {
+        const isMobileApp = link.label === "Get Mobile App";
+
+        return isMobileApp ? (
+          <button
+            key={link.href}
+            type="button"
+            onClick={() => {
+              setMobileOpen(false);
+              setAppModalOpen(true);
+            }}
+            className="w-full flex items-center px-3 py-2.5 rounded-lg text-sm font-medium transition-colors text-left"
             style={{
-              background: "#0a0a0a",
-              borderColor: "rgba(255,255,255,0.08)",
+              color: "#AAAAAA",
+              background: "transparent",
+              fontFamily: "Inter, sans-serif",
             }}
           >
-            <div className="px-4 py-3 space-y-1">
-              {NAV_LINKS.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="flex items-center px-3 py-2.5 rounded-lg text-sm font-medium transition-colors"
-                  style={{
-                    color: currentPath === link.href ? "#ffffff" : "#AAAAAA",
-                    background:
-                      currentPath === link.href
-                        ? "rgba(179,0,0,0.15)"
-                        : "transparent",
-                    fontFamily: "Inter, sans-serif",
-                  }}
-                  onClick={() => setMobileOpen(false)}
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
+            {link.label}
+          </button>
+        ) : (
+          <a
+            key={link.href}
+            href={link.href}
+            className="flex items-center px-3 py-2.5 rounded-lg text-sm font-medium transition-colors"
+            style={{
+              color: currentPath === link.href ? "#ffffff" : "#AAAAAA",
+              background:
+                currentPath === link.href
+                  ? "rgba(179,0,0,0.15)"
+                  : "transparent",
+              fontFamily: "Inter, sans-serif",
+            }}
+            onClick={() => setMobileOpen(false)}
+          >
+            {link.label}
+          </a>
+        );
+      })}
+    </div>
+  </div>
+)}
         {appModalOpen && (
   <div className="fixed inset-0 z-[999] flex items-center justify-center bg-black/70 backdrop-blur-sm">
     <div className="bg-[#111] border border-gray-700 rounded-xl p-6 w-[90%] max-w-sm text-center">
