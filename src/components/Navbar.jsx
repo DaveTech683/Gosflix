@@ -333,7 +333,7 @@ export default function Navbar() {
         {/* Android Button */}
         <button
           onClick={() => {
-            const apkUrl = "https://github.com/DaveTech683/Goflix_web/releases/download/v1.0.0/goflix.apk"; // 🔥 CHANGE THIS
+            const apkUrl = "https://github.com/DaveTech683/Goflix_website/releases/download/v1.0.0/goflix.apk"; // 🔥 CHANGE THIS
             window.location.href = apkUrl;
             setAppModalOpen(false);
           }}

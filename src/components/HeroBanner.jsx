@@ -377,7 +377,7 @@ export default function HeroBanner({ content }) {
             <div className="flex flex-col gap-3">
               <button
                 onClick={() => {
-                  window.location.href = "https://github.com/DaveTech683/Goflix_web/releases/download/v1.0.0/goflix.apk";
+                  window.location.href = "https://github.com/DaveTech683/Goflix_website/releases/download/v1.0.0/goflix.apk";
                   setAppModalOpen(false);
                 }}
                 className="w-full py-2.5 rounded-xl font-semibold text-white transition-opacity hover:opacity-90"
