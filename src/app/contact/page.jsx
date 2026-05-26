@@ -8,29 +8,25 @@ const CONTACT_OPTIONS = [
   {
     title: "General Support",
     description: "Questions about your account, login, subscriptions, or using GoFlix.",
-    contact: "goserviceofficial@hotmail.com
-Outlook.com",
+    contact: "goserviceofficial@hotmail.com",
     icon: "🎧",
   },
   {
     title: "Privacy Requests",
     description: "Questions about your data, privacy rights, account deletion, or personal information.",
-    contact: "goserviceofficial@hotmail.com
-Outlook.com",
+    contact: "goserviceofficial@hotmail.com",
     icon: "🔒",
   },
   {
     title: "Content & Partnerships",
     description: "For filmmakers, churches, studios, creators, or partners who want to work with GoFlix.",
-    contact: "goserviceofficial@hotmail.com
-Outlook.com",
+    contact: "goserviceofficial@hotmail.com",
     icon: "🎬",
   },
   {
     title: "Report a Problem",
     description: "Report bugs, playback issues, payment issues, harmful content, or platform abuse.",
-    contact: "goserviceofficial@hotmail.com
-Outlook.com",
+    contact: "goserviceofficial@hotmail.com",
     icon: "⚠️",
   },
 ];
@@ -49,14 +45,12 @@ const FAQS = [
   {
     question: "How do I request account deletion?",
     answer:
-      "Send a request to goserviceofficial@hotmail.com
-Outlook.com using the email connected to your GoFlix account. We may need to verify ownership before deleting account data.",
+      "Send a request to goserviceofficial@hotmail.com using the email connected to your GoFlix account. We may need to verify ownership before deleting account data.",
   },
   {
     question: "How can I submit content to GoFlix?",
     answer:
-      "Creators, filmmakers, ministries, and partners can contact goserviceofficial@hotmail.com
-Outlook.com with details about the content, ownership rights, and distribution interest.",
+      "Creators, filmmakers, ministries, and partners can contact goserviceofficial@hotmail.com with details about the content, ownership rights, and distribution interest.",
   },
 ];
 
