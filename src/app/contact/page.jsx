@@ -8,25 +8,29 @@ const CONTACT_OPTIONS = [
   {
     title: "General Support",
     description: "Questions about your account, login, subscriptions, or using GoFlix.",
-    contact: "goflixofficials@gmail.com",
+    contact: "goserviceofficial@hotmail.com
+Outlook.com",
     icon: "🎧",
   },
   {
     title: "Privacy Requests",
     description: "Questions about your data, privacy rights, account deletion, or personal information.",
-    contact: "goflixofficials@gmail.com",
+    contact: "goserviceofficial@hotmail.com
+Outlook.com",
     icon: "🔒",
   },
   {
     title: "Content & Partnerships",
     description: "For filmmakers, churches, studios, creators, or partners who want to work with GoFlix.",
-    contact: "goflixofficials@gmail.com",
+    contact: "goserviceofficial@hotmail.com
+Outlook.com",
     icon: "🎬",
   },
   {
     title: "Report a Problem",
     description: "Report bugs, playback issues, payment issues, harmful content, or platform abuse.",
-    contact: "goflixofficials@gmail.com",
+    contact: "goserviceofficial@hotmail.com
+Outlook.com",
     icon: "⚠️",
   },
 ];
@@ -45,12 +49,14 @@ const FAQS = [
   {
     question: "How do I request account deletion?",
     answer:
-      "Send a request to goflixofficials@gmail.com using the email connected to your GoFlix account. We may need to verify ownership before deleting account data.",
+      "Send a request to goserviceofficial@hotmail.com
+Outlook.com using the email connected to your GoFlix account. We may need to verify ownership before deleting account data.",
   },
   {
     question: "How can I submit content to GoFlix?",
     answer:
-      "Creators, filmmakers, ministries, and partners can contact goflixofficials@gmail.com with details about the content, ownership rights, and distribution interest.",
+      "Creators, filmmakers, ministries, and partners can contact goserviceofficial@hotmail.com
+Outlook.com with details about the content, ownership rights, and distribution interest.",
   },
 ];
 
@@ -81,7 +87,8 @@ export default function Contact() {
       `Name: ${form.name}\nEmail: ${form.email}\nCategory: ${form.category}\n\nMessage:\n${form.message}`
     );
 
-    window.location.href = `mailto:goflixofficials@gmail.com?subject=${mailSubject}&body=${mailBody}`;
+    window.location.href = `mailto:goserviceofficial@hotmail.com
+Outlook.com?subject=${mailSubject}&body=${mailBody}`;
   };
 
   return (
@@ -254,19 +261,22 @@ export default function Contact() {
               <div className="space-y-4 text-gray-400">
                 <div>
                   <p className="text-white font-semibold mb-1">Support Email</p>
-                  <p style={{ color: "#e50914" }}>goflixofficials@gmail.com</p>
+                  <p style={{ color: "#e50914" }}>goserviceofficial@hotmail.com
+Outlook.com</p>
                 </div>
 
                 <div>
                   <p className="text-white font-semibold mb-1">Privacy Email</p>
-                  <p style={{ color: "#e50914" }}>goflixofficials@gmail.com</p>
+                  <p style={{ color: "#e50914" }}>goserviceofficial@hotmail.com
+Outlook.com</p>
                 </div>
 
                 <div>
                   <p className="text-white font-semibold mb-1">
                     Partnership Email
                   </p>
-                  <p style={{ color: "#e50914" }}>goflixofficials@gmail.com</p>
+                  <p style={{ color: "#e50914" }}>goserviceofficial@hotmail.com
+Outlook.com</p>
                 </div>
 
                 <div>
