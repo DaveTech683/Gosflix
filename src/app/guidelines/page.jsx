@@ -142,8 +142,7 @@ export default function Guidelines() {
           <p>
             Questions? Contact us at{" "}
             <span style={{ color: "#e50914", fontWeight: 600 }}>
-              goserviceofficial@hotmail.com
-Outlook.com
+              abiolad267@gmail.com
             </span>
           </p>
           <p className="mt-3 text-gray-700">
