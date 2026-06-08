@@ -181,7 +181,7 @@ export default function LivePage() {
   });
 
   useEffect(() => {
-    document.title = "Live Events — GoFlix";
+    document.title = "Live Events — GoPremiere";
   }, []);
 
   const liveEvents = data?.live || [];

@@ -15,7 +15,7 @@ export default function KidsPage() {
   });
 
   useEffect(() => {
-    document.title = "Kids — GoFlix";
+    document.title = "Kids — GoPremiere";
   }, []);
 
   const movies = content?.filter((c) => c.type === "movie") || [];

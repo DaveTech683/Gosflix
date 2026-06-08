@@ -369,7 +369,7 @@ export default function HeroBanner({ content }) {
               className="text-white text-lg font-semibold mb-2"
               style={{ fontFamily: "Poppins, sans-serif" }}
             >
-              Get GoFlix Mobile App
+              Get GoPremiere Mobile App
             </h2>
             <p className="text-gray-500 text-sm mb-6" style={{ fontFamily: "Inter, sans-serif" }}>
               Choose your device

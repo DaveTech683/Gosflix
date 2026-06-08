@@ -7,7 +7,7 @@ import Footer from "../../components/Footer";
 const CONTACT_OPTIONS = [
   {
     title: "General Support",
-    description: "Questions about your account, login, subscriptions, or using GoFlix.",
+    description: "Questions about your account, login, subscriptions, or using GoPremiere.",
     contact: "abiolad267@gmail.com",
     icon: "🎧",
   },
@@ -19,7 +19,7 @@ const CONTACT_OPTIONS = [
   },
   {
     title: "Content & Partnerships",
-    description: "For filmmakers, churches, studios, creators, or partners who want to work with GoFlix.",
+    description: "For filmmakers, churches, studios, creators, or partners who want to work with GoPremiere.",
     contact: "abiolad267@gmail.com",
     icon: "🎬",
   },
@@ -45,10 +45,10 @@ const FAQS = [
   {
     question: "How do I request account deletion?",
     answer:
-      "Send a request to abiolad267@gmail.com using the email connected to your GoFlix account. We may need to verify ownership before deleting account data.",
+      "Send a request to abiolad267@gmail.com using the email connected to your GoPremiere account. We may need to verify ownership before deleting account data.",
   },
   {
-    question: "How can I submit content to GoFlix?",
+    question: "How can I submit content to GoPremiere?",
     answer:
       "Creators, filmmakers, ministries, and partners can contact abiolad267@gmail.com with details about the content, ownership rights, and distribution interest.",
   },
@@ -74,7 +74,7 @@ export default function Contact() {
     e.preventDefault();
 
     const mailSubject = encodeURIComponent(
-      `[${form.category}] ${form.subject || "GoFlix Contact Request"}`
+      `[${form.category}] ${form.subject || "GoPremiere Contact Request"}`
     );
 
     const mailBody = encodeURIComponent(
@@ -103,7 +103,7 @@ export default function Contact() {
           </div>
 
           <h1 className="text-3xl md:text-5xl font-extrabold mb-4">
-            Contact GoFlix
+            Contact GoPremiere
           </h1>
 
           <p className="text-gray-400 max-w-2xl mx-auto leading-7">

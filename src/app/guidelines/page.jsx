@@ -8,11 +8,11 @@ const LAST_UPDATED = "May 10, 2026";
 const SECTIONS = [
   {
     title: "Our Community Standard",
-    body: "GoFlix is built to be a safe, respectful, faith-friendly, and family-conscious entertainment platform. Users are expected to treat others with respect, avoid harmful behaviour, and use the platform in a way that supports a positive viewing experience for everyone.",
+    body: "GoPremiere is built to be a safe, respectful, faith-friendly, and family-conscious entertainment platform. Users are expected to treat others with respect, avoid harmful behaviour, and use the platform in a way that supports a positive viewing experience for everyone.",
   },
   {
     title: "Respect Other Users",
-    body: "Do not harass, threaten, insult, bully, intimidate, impersonate, or target other users. If GoFlix allows comments, reviews, reactions, profiles, or community features, users must communicate respectfully and avoid abusive or harmful language.",
+    body: "Do not harass, threaten, insult, bully, intimidate, impersonate, or target other users. If GoPremiere allows comments, reviews, reactions, profiles, or community features, users must communicate respectfully and avoid abusive or harmful language.",
   },
   {
     title: "No Hate Speech or Discrimination",
@@ -24,15 +24,15 @@ const SECTIONS = [
   },
   {
     title: "Keep Content Appropriate",
-    body: "GoFlix may host content for different audiences. Users should avoid posting or sharing sexually explicit, excessively violent, misleading, illegal, or harmful material. Parents and guardians are responsible for supervising children’s viewing activity.",
+    body: "GoPremiere may host content for different audiences. Users should avoid posting or sharing sexually explicit, excessively violent, misleading, illegal, or harmful material. Parents and guardians are responsible for supervising children’s viewing activity.",
   },
   {
     title: "No Spam or Misleading Activity",
-    body: "Do not post spam, scams, fake promotions, phishing links, misleading information, repetitive comments, fake engagement, or anything designed to deceive users or manipulate GoFlix features.",
+    body: "Do not post spam, scams, fake promotions, phishing links, misleading information, repetitive comments, fake engagement, or anything designed to deceive users or manipulate GoPremiere features.",
   },
   {
     title: "Respect Copyright and Ownership",
-    body: "Only upload, post, share, or submit content that you own or have permission to use. Do not copy, record, redistribute, download, resell, or share GoFlix content outside the platform unless GoFlix clearly allows it.",
+    body: "Only upload, post, share, or submit content that you own or have permission to use. Do not copy, record, redistribute, download, resell, or share GoPremiere content outside the platform unless GoPremiere clearly allows it.",
   },
   {
     title: "No Account Misuse",
@@ -40,11 +40,11 @@ const SECTIONS = [
   },
   {
     title: "Platform Security",
-    body: "Do not attempt to hack, disrupt, overload, reverse engineer, scrape, bypass security controls, interfere with video protections, or access private parts of GoFlix systems. Any attempt to damage or misuse the platform may lead to account suspension or legal action.",
+    body: "Do not attempt to hack, disrupt, overload, reverse engineer, scrape, bypass security controls, interfere with video protections, or access private parts of GoPremiere systems. Any attempt to damage or misuse the platform may lead to account suspension or legal action.",
   },
   {
     title: "Comments and User Interactions",
-    body: "If GoFlix provides comment sections, reviews, likes, saves, shares, or other interactive features, users must use them honestly and respectfully. We may remove comments or interactions that are abusive, spammy, misleading, hateful, or harmful.",
+    body: "If GoPremiere provides comment sections, reviews, likes, saves, shares, or other interactive features, users must use them honestly and respectfully. We may remove comments or interactions that are abusive, spammy, misleading, hateful, or harmful.",
   },
   {
     title: "Profile and Display Names",
@@ -52,11 +52,11 @@ const SECTIONS = [
   },
   {
     title: "Reporting Problems",
-    body: "If you see content, comments, users, or activity that appears harmful, abusive, illegal, misleading, or against these guidelines, you may contact GoFlix support. Reports help us keep the platform safe and improve the community experience.",
+    body: "If you see content, comments, users, or activity that appears harmful, abusive, illegal, misleading, or against these guidelines, you may contact GoPremiere support. Reports help us keep the platform safe and improve the community experience.",
   },
   {
     title: "Content Moderation",
-    body: "GoFlix may review, remove, restrict, hide, or disable access to content, comments, profiles, or accounts that violate these guidelines, our Terms of Service, our Privacy Policy, or applicable law.",
+    body: "GoPremiere may review, remove, restrict, hide, or disable access to content, comments, profiles, or accounts that violate these guidelines, our Terms of Service, our Privacy Policy, or applicable law.",
   },
   {
     title: "Account Enforcement",
@@ -64,27 +64,27 @@ const SECTIONS = [
   },
   {
     title: "Family and Faith-Friendly Use",
-    body: "GoFlix aims to support uplifting and meaningful entertainment. Users should avoid behaviour that damages the experience for families, faith-based viewers, creators, and other members of the community.",
+    body: "GoPremiere aims to support uplifting and meaningful entertainment. Users should avoid behaviour that damages the experience for families, faith-based viewers, creators, and other members of the community.",
   },
   {
     title: "Live Events and Reels",
-    body: "For live events, reels, short videos, or interactive content, users must not disrupt broadcasts, post harmful comments, spread false information, harass creators, or encourage unsafe behaviour. GoFlix may moderate live or short-form content to protect viewers.",
+    body: "For live events, reels, short videos, or interactive content, users must not disrupt broadcasts, post harmful comments, spread false information, harass creators, or encourage unsafe behaviour. GoPremiere may moderate live or short-form content to protect viewers.",
   },
   {
     title: "Creator and Partner Guidelines",
-    body: "Creators, partners, or content providers working with GoFlix must ensure they have the necessary rights to their content and that their content follows platform standards. Content that violates ownership rights, safety rules, or community standards may be rejected or removed.",
+    body: "Creators, partners, or content providers working with GoPremiere must ensure they have the necessary rights to their content and that their content follows platform standards. Content that violates ownership rights, safety rules, or community standards may be rejected or removed.",
   },
   {
     title: "Appeals and Reviews",
-    body: "If your content or account is restricted and you believe it was a mistake, you may contact GoFlix support for review. GoFlix may review appeals at its discretion, but not all enforcement decisions may be reversed.",
+    body: "If your content or account is restricted and you believe it was a mistake, you may contact GoPremiere support for review. GoPremiere may review appeals at its discretion, but not all enforcement decisions may be reversed.",
   },
   {
     title: "Changes to These Guidelines",
-    body: "GoFlix may update these guidelines from time to time to improve safety, comply with legal requirements, or respond to new platform features. Continued use of GoFlix after changes means you agree to follow the updated guidelines.",
+    body: "GoPremiere may update these guidelines from time to time to improve safety, comply with legal requirements, or respond to new platform features. Continued use of GoPremiere after changes means you agree to follow the updated guidelines.",
   },
   {
     title: "Contact Us",
-    body: "If you have questions about these Community Guidelines or need to report an issue, contact us at support@goflix.app.",
+    body: "If you have questions about these Community Guidelines or need to report an issue, contact us at gosoftwareofficial@gmail.com",
   },
 ];
 
@@ -112,7 +112,7 @@ export default function Guidelines() {
           </h1>
 
           <p className="text-gray-400 max-w-2xl mx-auto leading-7">
-            These guidelines explain how users should behave on GoFlix so the
+            These guidelines explain how users should behave on GoPremiere so the
             platform remains safe, respectful, family-conscious, and enjoyable
             for everyone.
           </p>
@@ -146,7 +146,7 @@ export default function Guidelines() {
             </span>
           </p>
           <p className="mt-3 text-gray-700">
-            © 2026 GoFlix. All rights reserved.
+            © 2026 GoPremiere. All rights reserved.
           </p>
         </section>
       </main>

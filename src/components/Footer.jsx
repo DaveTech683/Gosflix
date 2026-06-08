@@ -2,7 +2,7 @@ import { Heart } from "lucide-react";
 
 const FOOTER_LINKS = {
   Company: [
-    { label: "About GoFlix", href: "/about" },
+    { label: "About GoPremiere", href: "/about" },
     { label: "Our Mission", href: "/mission" },
     { label: "Vision", href: "/vision" },
     // { label: "Press", href: "/press" },
@@ -65,7 +65,7 @@ export default function Footer() {
           style={{ fontFamily: "Inter, sans-serif" }}
         >
           Join millions of moral driven and believers streaming faith-driven, family-safe content
-          on GoFlix.
+          on GoPremiere.
         </p>
         <a
           href="/account/signup"
@@ -155,7 +155,7 @@ export default function Footer() {
             className="text-gray-600 text-xs"
             style={{ fontFamily: "Inter, sans-serif" }}
           >
-            © {new Date().getFullYear()} GoFlix Inc. All rights reserved.
+            © {new Date().getFullYear()} GoPremiere Inc. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             <span

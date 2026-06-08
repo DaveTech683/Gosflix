@@ -377,7 +377,7 @@ function ReelCard({ reel, isActive, muted, onMuteToggle }) {
         <div className="flex items-center gap-2 mb-1.5">
           <span className="px-2 py-0.5 rounded-full text-[10px] font-bold text-white uppercase tracking-wide"
             style={{ background: "#B30000" }}>
-            GoFlix Reel
+            GoPremiere Reel
           </span>
           {reel.duration_seconds && (
             <span className="text-gray-400 text-xs" style={{ fontFamily: "Inter, sans-serif" }}>
@@ -448,7 +448,7 @@ export default function ReelsPage() {
   });
 
   useEffect(() => {
-    document.title = "Reels — GoFlix";
+    document.title = "Reels — GoPremiere";
   }, []);
 
   const goTo = useCallback((index) => {
@@ -612,7 +612,7 @@ export default function ReelsPage() {
         <div style={{ maxWidth: 260 }}>
           <div className="inline-block px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wide mb-4 text-white"
             style={{ background: "#B30000" }}>
-            GoFlix Reels
+            GoPremiere Reels
           </div>
           <h3 className="text-white text-2xl font-bold mb-2" style={{ fontFamily: "Poppins, sans-serif" }}>
             {current?.title}

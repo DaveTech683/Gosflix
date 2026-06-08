@@ -18,7 +18,7 @@ const FUTURE_PLANS = [
     price: "Free",
     badge: "Available Now",
     description:
-      "Enjoy GoFlix free for a limited time while we continue improving the platform and expanding our content library.",
+      "Enjoy GoPremiere free for a limited time while we continue improving the platform and expanding our content library.",
     features: [
       "Watch available movies and series",
       "Access selected reels and live content",
@@ -33,7 +33,7 @@ const FUTURE_PLANS = [
     price: "Coming Soon",
     badge: "After Trial",
     description:
-      "Subscription access will be activated after the free trial period, giving users continued access to premium GoFlix content.",
+      "Subscription access will be activated after the free trial period, giving users continued access to premium GoPremiere content.",
     features: [
       "Premium gospel movies and series",
       "Exclusive content releases",
@@ -65,11 +65,11 @@ export default function Pricing() {
           </div>
 
           <h1 className="text-3xl md:text-5xl font-extrabold mb-5">
-            GoFlix Pricing
+            GoPremiere Pricing
           </h1>
 
           <p className="text-gray-400 max-w-3xl mx-auto leading-8 text-base md:text-lg">
-            GoFlix is currently free to watch for a limited time. Enjoy access
+            GoPremiere is currently free to watch for a limited time. Enjoy access
             during our free viewing period before subscriptions are activated
             after the trial phase.
           </p>
@@ -91,11 +91,11 @@ export default function Pricing() {
           </p>
 
           <h2 className="text-2xl md:text-4xl font-extrabold mb-5 leading-tight">
-            Watch GoFlix free during our launch trial.
+            Watch GoPremiere free during our launch trial.
           </h2>
 
           <p className="text-gray-300 max-w-3xl mx-auto leading-8 mb-8">
-            We are giving viewers free access for a limited period while GoFlix
+            We are giving viewers free access for a limited period while GoPremiere
             grows. This allows you to explore our movies, series, reels, and
             platform features before paid subscriptions are introduced.
           </p>
@@ -201,7 +201,7 @@ export default function Pricing() {
           </h2>
 
           <p className="text-gray-400 leading-8 mb-5">
-            GoFlix will introduce subscription plans after the free trial period.
+            GoPremiere will introduce subscription plans after the free trial period.
             This will help us continue improving the platform, expanding the
             content library, supporting creators, and delivering a better
             streaming experience.
@@ -220,7 +220,7 @@ export default function Pricing() {
           </h2>
 
           <p className="text-gray-400 max-w-3xl mx-auto leading-8 mb-8">
-            This is the best time to explore GoFlix. Create your account, enjoy
+            This is the best time to explore GoPremiere. Create your account, enjoy
             the free access period, and experience faith-friendly entertainment
             before subscriptions go live.
           </p>

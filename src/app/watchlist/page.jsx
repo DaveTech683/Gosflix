@@ -13,7 +13,7 @@ export default function WatchlistPage() {
   const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    document.title = "My List — GoFlix";
+    document.title = "My List — GoPremiere";
     useAuthStore.getState().initialize();
 
     if (!isAuthenticated) {

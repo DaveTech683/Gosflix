@@ -37,7 +37,7 @@ export default function SignUpPage() {
     useAuthStore();
 
   useEffect(() => {
-    document.title = "Join GoFlix — Faith, Family, Entertainment";
+    document.title = "Join GoPremiere — Faith, Family, Entertainment";
     clearError();
     if (isAuthenticated) {
       window.location.href = "/";
@@ -96,7 +96,7 @@ export default function SignUpPage() {
             className="text-3xl font-black text-white mb-3"
             style={{ fontFamily: "Poppins, sans-serif" }}
           >
-            Join the GoFlix family.
+            Join the GoPremiere family.
           </h2>
           <p
             className="text-gray-400 text-sm mb-10"
@@ -138,7 +138,7 @@ export default function SignUpPage() {
               className="text-gray-300 text-sm italic leading-relaxed mb-3"
               style={{ fontFamily: "Inter, sans-serif" }}
             >
-              "GoFlix transformed our family movie nights. Finally, content we
+              "GoPremiere transformed our family movie nights. Finally, content we
               trust."
             </p>
             <div className="flex items-center gap-2">
@@ -158,7 +158,7 @@ export default function SignUpPage() {
                   className="text-gray-600 text-xs"
                   style={{ fontFamily: "Inter, sans-serif" }}
                 >
-                  GoFlix Premium Member
+                  GoPremiere Premium Member
                 </p>
               </div>
             </div>

@@ -25,7 +25,7 @@ export default function SearchPage() {
   const debounceRef = useRef(null);
 
   useEffect(() => {
-    document.title = "Search — GoFlix";
+    document.title = "Search — GoPremiere";
     // Get query from URL
     if (typeof window !== "undefined") {
       const params = new URLSearchParams(window.location.search);

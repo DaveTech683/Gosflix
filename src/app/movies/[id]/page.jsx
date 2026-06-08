@@ -28,7 +28,7 @@ export default function MovieDetailPage({ params }) {
   useEffect(() => {
     if (movie) {
       setInList(watchlistService.isInWatchlist(movie.id));
-      document.title = `${movie.title} — GoFlix`;
+      document.title = `${movie.title} — GoPremiere`;
     }
   }, [movie]);
 

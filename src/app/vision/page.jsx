@@ -6,12 +6,12 @@ import Footer from "../../components/Footer";
 const VISION_POINTS = [
   {
     title: "A Global Home for Faith-Based Entertainment",
-    body: "Our vision is for GoFlix to become a trusted destination where people around the world can discover gospel movies, inspirational series, uplifting reels, live events, and family-conscious stories in one place.",
+    body: "Our vision is for GoPremiere to become a trusted destination where people around the world can discover gospel movies, inspirational series, uplifting reels, live events, and family-conscious stories in one place.",
     icon: "🌍",
   },
   {
     title: "A Platform That Inspires Generations",
-    body: "We want GoFlix to be more than a streaming app. We want it to become a platform that inspires faith, strengthens families, encourages communities, and helps meaningful stories live beyond the screen.",
+    body: "We want GoPremiere to be more than a streaming app. We want it to become a platform that inspires faith, strengthens families, encourages communities, and helps meaningful stories live beyond the screen.",
     icon: "✨",
   },
   {
@@ -74,7 +74,7 @@ export default function Vision() {
           </h1>
 
           <p className="text-gray-400 max-w-3xl mx-auto leading-8 text-base md:text-lg">
-            Our vision is to make GoFlix a leading home for faith-friendly,
+            Our vision is to make GoPremiere a leading home for faith-friendly,
             inspirational, and family-conscious entertainment — a platform where
             stories of hope, purpose, and faith can reach people everywhere.
           </p>
@@ -101,7 +101,7 @@ export default function Vision() {
 
           <p className="text-gray-300 leading-8 mb-5">
             We imagine a future where viewers do not have to search endlessly to
-            find entertainment that aligns with their values. GoFlix is being
+            find entertainment that aligns with their values. GoPremiere is being
             built to become a trusted digital home for content that encourages,
             teaches, entertains, and uplifts.
           </p>
@@ -119,7 +119,7 @@ export default function Vision() {
               What We Are Building Toward
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto leading-7">
-              GoFlix is focused on building a future where entertainment is not
+              GoPremiere is focused on building a future where entertainment is not
               only accessible, but also meaningful, safe, and purpose-driven.
             </p>
           </div>
@@ -175,7 +175,7 @@ export default function Vision() {
               The Impact We Want to Make
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto leading-7">
-              Our vision reaches beyond the screen. We want GoFlix to serve
+              Our vision reaches beyond the screen. We want GoPremiere to serve
               viewers, families, creators, and communities.
             </p>
           </div>
@@ -212,13 +212,13 @@ export default function Vision() {
 
           <p className="text-gray-400 leading-8 mb-5">
             We believe gospel and inspirational entertainment deserves a strong
-            digital future. GoFlix is part of that future — a platform designed
+            digital future. GoPremiere is part of that future — a platform designed
             to help valuable stories reach more people through technology,
             creativity, and intentional distribution.
           </p>
 
           <p className="text-gray-400 leading-8">
-            As GoFlix grows, our vision is to keep improving the viewing
+            As GoPremiere grows, our vision is to keep improving the viewing
             experience, expanding the content library, supporting creators, and
             building a platform that people trust.
           </p>
@@ -230,7 +230,7 @@ export default function Vision() {
           </h2>
 
           <p className="text-gray-400 max-w-3xl mx-auto leading-8 mb-8">
-            We are building GoFlix to become a movement for meaningful media —
+            We are building GoPremiere to become a movement for meaningful media —
             a place where faith, creativity, technology, and storytelling work
             together to inspire people across the world.
           </p>
@@ -243,7 +243,7 @@ export default function Vision() {
                 background: "linear-gradient(135deg, #B30000, #e50914)",
               }}
             >
-              Explore GoFlix
+              Explore GoPremiere
             </a>
 
             <a

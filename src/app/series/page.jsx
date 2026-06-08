@@ -15,7 +15,7 @@ export default function SeriesPage() {
   });
 
   useEffect(() => {
-    document.title = "Series — GoFlix";
+    document.title = "Series — GoPremiere";
   }, []);
 
   const seriesList = data?.data || [];

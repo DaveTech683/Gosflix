@@ -65,7 +65,7 @@ export default function HomePage() {
     setCachedFeatured(readSessionCache(FEATURED_CACHE_KEY));
     setCachedRows(readSessionCache(ROWS_CACHE_KEY));
 
-    document.title = "GoFlix — Faith, Family, Entertainment";
+    document.title = "GoPremiere — Faith, Family, Entertainment";
   }, []);
 
   const {

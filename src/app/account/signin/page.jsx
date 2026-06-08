@@ -21,7 +21,7 @@ export default function SignInPage() {
   }, [isAuthenticated]);
 
   useEffect(() => {
-    document.title = "Sign In — GoFlix";
+    document.title = "Sign In — GoPremiere";
     clearError();
   }, []);
 
@@ -228,7 +228,7 @@ export default function SignInPage() {
             href="/account/signup"
             className="text-white font-semibold hover:underline"
           >
-            Join GoFlix free
+            Join GoPremiere free
           </a>
         </p>
       </div>

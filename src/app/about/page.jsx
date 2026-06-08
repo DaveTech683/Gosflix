@@ -6,7 +6,7 @@ import Footer from "../../components/Footer";
 const VALUES = [
   {
     title: "Faith-Friendly Entertainment",
-    body: "GoFlix is built for viewers who want meaningful, uplifting, and value-driven entertainment they can enjoy alone, with friends, or with family.",
+    body: "GoPremiere is built for viewers who want meaningful, uplifting, and value-driven entertainment they can enjoy alone, with friends, or with family.",
     icon: "✨",
   },
   {
@@ -16,7 +16,7 @@ const VALUES = [
   },
   {
     title: "Created for Modern Viewers",
-    body: "GoFlix is designed to work across web and mobile, giving users a smooth way to discover, watch, save, and continue content wherever they are.",
+    body: "GoPremiere is designed to work across web and mobile, giving users a smooth way to discover, watch, save, and continue content wherever they are.",
     icon: "📱",
   },
   {
@@ -57,11 +57,11 @@ export default function About() {
           </div>
 
           <h1 className="text-3xl md:text-5xl font-extrabold mb-5">
-            About GoFlix
+            About GoPremiere
           </h1>
 
           <p className="text-gray-400 max-w-3xl mx-auto leading-8 text-base md:text-lg">
-            GoFlix is a faith-friendly streaming platform created to make
+            GoPremiere is a faith-friendly streaming platform created to make
             gospel movies, inspirational series, uplifting reels, live events,
             and family-conscious entertainment easier to discover and enjoy.
           </p>
@@ -88,7 +88,7 @@ export default function About() {
               <p className="text-gray-300 leading-8 mb-5">
                 We believe entertainment can be more than just something to pass
                 time. It can inspire, teach, encourage, strengthen faith, and
-                bring people together. GoFlix exists to make that kind of
+                bring people together. GoPremiere exists to make that kind of
                 content more accessible.
               </p>
 
@@ -107,7 +107,7 @@ export default function About() {
                 border: "1px solid rgba(255,255,255,0.08)",
               }}
             >
-              <h3 className="text-xl font-bold mb-4">What GoFlix Offers</h3>
+              <h3 className="text-xl font-bold mb-4">What GoPremiere Offers</h3>
 
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 {FEATURES.map((feature) => (
@@ -133,7 +133,7 @@ export default function About() {
               What We Stand For
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto leading-7">
-              GoFlix is built around values that matter to our viewers,
+              GoPremiere is built around values that matter to our viewers,
               creators, families, and partners.
             </p>
           </div>
@@ -168,7 +168,7 @@ export default function About() {
           </h2>
 
           <p className="text-gray-400 leading-8 mb-5">
-            GoFlix gives viewers a place to find content that aligns with faith,
+            GoPremiere gives viewers a place to find content that aligns with faith,
             family, and positive values. We want users to enjoy a streaming
             experience that feels simple, modern, and intentional.
           </p>
@@ -192,7 +192,7 @@ export default function About() {
           </h2>
 
           <p className="text-gray-400 leading-8 mb-5">
-            GoFlix is also a platform for creators, filmmakers, churches,
+            GoPremiere is also a platform for creators, filmmakers, churches,
             ministries, and content partners who want their stories to reach the
             right audience.
           </p>
@@ -209,7 +209,7 @@ export default function About() {
           </h2>
 
           <p className="text-gray-400 max-w-3xl mx-auto leading-8 mb-8">
-            GoFlix is more than a streaming app. It is a growing platform for
+            GoPremiere is more than a streaming app. It is a growing platform for
             stories that encourage, inspire, and connect people through
             meaningful entertainment.
           </p>

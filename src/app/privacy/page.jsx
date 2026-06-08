@@ -8,19 +8,19 @@ const LAST_UPDATED = "May 10, 2026";
 const SECTIONS = [
   {
     title: "Information We Collect",
-    body: "We collect information you provide directly to us, such as your name, email address, password, profile details, and any information you submit when creating or managing your account. We may also collect information related to your subscriptions, watchlist, viewing activity, search queries, preferences, device information, IP address, app usage, and interactions with GoFlix features.",
+    body: "We collect information you provide directly to us, such as your name, email address, password, profile details, and any information you submit when creating or managing your account. We may also collect information related to your subscriptions, watchlist, viewing activity, search queries, preferences, device information, IP address, app usage, and interactions with GoPremiere features.",
   },
   {
     title: "Account and Login Information",
-    body: "When you create an account or log in to GoFlix, we collect and process authentication information needed to verify your identity and protect your account. Passwords are hashed and are not stored in plain text. We may use access tokens, refresh tokens, or similar technologies to keep you signed in securely.",
+    body: "When you create an account or log in to GoPremiere, we collect and process authentication information needed to verify your identity and protect your account. Passwords are hashed and are not stored in plain text. We may use access tokens, refresh tokens, or similar technologies to keep you signed in securely.",
   },
   {
     title: "How We Use Your Information",
-    body: "We use the information we collect to provide, maintain, secure, and improve GoFlix; personalise your content recommendations; remember your preferences; manage your account; process subscriptions; improve playback performance; communicate with you about service updates; analyse usage patterns; detect suspicious activity; prevent fraud; and comply with applicable legal obligations.",
+    body: "We use the information we collect to provide, maintain, secure, and improve GoPremiere; personalise your content recommendations; remember your preferences; manage your account; process subscriptions; improve playback performance; communicate with you about service updates; analyse usage patterns; detect suspicious activity; prevent fraud; and comply with applicable legal obligations.",
   },
   {
     title: "Content Recommendations and Personalisation",
-    body: "GoFlix may use your viewing history, watchlist, liked content, search activity, genre preferences, and general usage behaviour to recommend movies, series, reels, live events, and other content that may be relevant to you. You may be able to change some preferences through your account settings.",
+    body: "GoPremiere may use your viewing history, watchlist, liked content, search activity, genre preferences, and general usage behaviour to recommend movies, series, reels, live events, and other content that may be relevant to you. You may be able to change some preferences through your account settings.",
   },
   {
     title: "Watch History and User Activity",
@@ -28,15 +28,15 @@ const SECTIONS = [
   },
   {
     title: "Payment and Subscription Information",
-    body: "If GoFlix offers paid subscriptions or purchases, payment processing may be handled by trusted third-party payment providers. We may receive limited payment-related information such as transaction status, subscription plan, expiry date, payment confirmation, and billing reference. We do not store full card details unless clearly stated and handled through a compliant payment provider.",
+    body: "If GoPremiere offers paid subscriptions or purchases, payment processing may be handled by trusted third-party payment providers. We may receive limited payment-related information such as transaction status, subscription plan, expiry date, payment confirmation, and billing reference. We do not store full card details unless clearly stated and handled through a compliant payment provider.",
   },
   {
     title: "Advertising and Analytics",
-    body: "GoFlix may use analytics tools and advertising partners to understand app performance, measure engagement, show relevant ads, prevent abuse, and improve the service. These partners may collect device identifiers, usage events, ad interactions, and approximate location information in accordance with their own privacy policies.",
+    body: "GoPremiere may use analytics tools and advertising partners to understand app performance, measure engagement, show relevant ads, prevent abuse, and improve the service. These partners may collect device identifiers, usage events, ad interactions, and approximate location information in accordance with their own privacy policies.",
   },
   {
     title: "Cookies and Similar Technologies",
-    body: "On the web version of GoFlix, we may use cookies, local storage, session storage, and similar technologies to keep you signed in, remember preferences, improve performance, protect your account, and analyse usage. You may control cookies through your browser settings, but disabling some cookies may affect how the service works.",
+    body: "On the web version of GoPremiere, we may use cookies, local storage, session storage, and similar technologies to keep you signed in, remember preferences, improve performance, protect your account, and analyse usage. You may control cookies through your browser settings, but disabling some cookies may affect how the service works.",
   },
   {
     title: "Device and Technical Information",
@@ -44,15 +44,15 @@ const SECTIONS = [
   },
   {
     title: "Location Information",
-    body: "We may collect approximate location information based on your IP address or device settings. This may be used for security, analytics, content availability, fraud prevention, and regional service improvements. GoFlix does not collect precise GPS location unless a feature specifically requires it and you give permission.",
+    body: "We may collect approximate location information based on your IP address or device settings. This may be used for security, analytics, content availability, fraud prevention, and regional service improvements. GoPremiere does not collect precise GPS location unless a feature specifically requires it and you give permission.",
   },
   {
     title: "Data Sharing",
-    body: "We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who help us operate GoFlix, including hosting providers, analytics services, payment processors, customer support tools, email services, cloud storage providers, and security partners. These providers are expected to protect your information and use it only for authorised purposes.",
+    body: "We do not sell, trade, or rent your personal information to third parties. We may share information with trusted service providers who help us operate GoPremiere, including hosting providers, analytics services, payment processors, customer support tools, email services, cloud storage providers, and security partners. These providers are expected to protect your information and use it only for authorised purposes.",
   },
   {
     title: "Legal Compliance and Safety",
-    body: "We may disclose information if required by law, regulation, court order, legal process, or government request. We may also use or share information when necessary to protect GoFlix, our users, our rights, our property, prevent fraud, investigate abuse, enforce our terms, or respond to security issues.",
+    body: "We may disclose information if required by law, regulation, court order, legal process, or government request. We may also use or share information when necessary to protect GoPremiere, our users, our rights, our property, prevent fraud, investigate abuse, enforce our terms, or respond to security issues.",
   },
   {
     title: "Data Retention",
@@ -64,11 +64,11 @@ const SECTIONS = [
   },
   {
     title: "Your Rights",
-    body: "Depending on your location, you may have the right to access, correct, update, delete, restrict, or object to certain processing of your personal information. You may also request a copy of your data or ask questions about how your information is used. To exercise these rights, contact us at privacy@goflix.app.",
+    body: "Depending on your location, you may have the right to access, correct, update, delete, restrict, or object to certain processing of your personal information. You may also request a copy of your data or ask questions about how your information is used. To exercise these rights, contact us at gosoftwareofficial@gmail.com",
   },
   {
     title: "Account Deletion",
-    body: "You may request deletion of your GoFlix account and associated personal data. After deletion, you may lose access to your profile, watch history, watchlist, preferences, subscription features, and saved data. Some information may remain in backups, logs, or records where required for legal, security, or legitimate business purposes.",
+    body: "You may request deletion of your GoPremiere account and associated personal data. After deletion, you may lose access to your profile, watch history, watchlist, preferences, subscription features, and saved data. Some information may remain in backups, logs, or records where required for legal, security, or legitimate business purposes.",
   },
   {
     title: "Marketing Communications",
@@ -76,15 +76,15 @@ const SECTIONS = [
   },
   {
     title: "Children's Privacy",
-    body: "GoFlix is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information to us, please contact us immediately and we will take steps to delete such information where required.",
+    body: "GoPremiere is not directed at children under the age of 13. We do not knowingly collect personal information from children under 13. If you believe a child has provided personal information to us, please contact us immediately and we will take steps to delete such information where required.",
   },
   {
     title: "Parental Guidance and Family Content",
-    body: "Some GoFlix content may be suitable for family viewing, while other content may be intended for older audiences. Parents and guardians are responsible for supervising children’s use of the service and ensuring that content watched is appropriate for their household.",
+    body: "Some GoPremiere content may be suitable for family viewing, while other content may be intended for older audiences. Parents and guardians are responsible for supervising children’s use of the service and ensuring that content watched is appropriate for their household.",
   },
   {
     title: "Third-Party Links and Services",
-    body: "GoFlix may contain links to third-party websites, app stores, payment providers, social platforms, or external services. We are not responsible for the privacy practices, content, or security of those third-party services. You should review their privacy policies before providing information to them.",
+    body: "GoPremiere may contain links to third-party websites, app stores, payment providers, social platforms, or external services. We are not responsible for the privacy practices, content, or security of those third-party services. You should review their privacy policies before providing information to them.",
   },
   {
     title: "International Data Transfers",
@@ -92,7 +92,7 @@ const SECTIONS = [
   },
   {
     title: "User-Generated Content",
-    body: "If GoFlix allows comments, reviews, profile details, uploads, or other user-generated content, information you choose to share may be visible to other users or the public depending on the feature. You are responsible for the information you choose to make available through the service.",
+    body: "If GoPremiere allows comments, reviews, profile details, uploads, or other user-generated content, information you choose to share may be visible to other users or the public depending on the feature. You are responsible for the information you choose to make available through the service.",
   },
   {
     title: "Push Notifications",
@@ -104,11 +104,11 @@ const SECTIONS = [
   },
   {
     title: "Changes to This Policy",
-    body: "We may update this Privacy Policy from time to time. When we make changes, we may update the Last Updated date and notify users of significant changes through the app, website, email, or other appropriate methods. Your continued use of GoFlix after changes means you accept the updated policy.",
+    body: "We may update this Privacy Policy from time to time. When we make changes, we may update the Last Updated date and notify users of significant changes through the app, website, email, or other appropriate methods. Your continued use of GoPremiere after changes means you accept the updated policy.",
   },
   {
     title: "Contact Us",
-    body: "If you have questions, requests, or concerns about this Privacy Policy or how GoFlix handles your information, please contact us at privacy@goflix.app.",
+    body: "If you have questions, requests, or concerns about this Privacy Policy or how GoPremiere handles your information, please contact us at gosoftwareofficial@gmail.com",
   },
 ];
 
@@ -166,11 +166,11 @@ export default function Privacy() {
           <p>
             Questions? Contact us at{" "}
             <span style={{ color: "#e50914", fontWeight: 600 }}>
-              abiolad267@gmail.com
+              gosoftwareofficial@gmail.com
             </span>
           </p>
           <p className="mt-3 text-gray-700">
-            © 2026 GoFlix. All rights reserved.
+            © 2026 GoPremiere. All rights reserved.
           </p>
         </section>
       </main>

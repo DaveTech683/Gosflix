@@ -30,7 +30,7 @@ export default function MoviesPage() {
   });
 
   useEffect(() => {
-    document.title = "Movies — GoFlix";
+    document.title = "Movies — GoPremiere";
   }, []);
 
   const movies = data?.data || [];

@@ -28,7 +28,7 @@ export default function SeriesDetailPage({ params }) {
   useEffect(() => {
     if (series) {
       setInList(watchlistService.isInWatchlist(series.id));
-      document.title = `${series.title} — GoFlix`;
+      document.title = `${series.title} — GoPremiere`;
     }
   }, [series]);
 

@@ -11,12 +11,12 @@ const PILLARS = [
   },
   {
     title: "Support Gospel Creativity",
-    body: "GoFlix exists to support filmmakers, ministries, storytellers, and creators who are producing faith-based, inspirational, and family-conscious content.",
+    body: "GoPremiere exists to support filmmakers, ministries, storytellers, and creators who are producing faith-based, inspirational, and family-conscious content.",
     icon: "🎬",
   },
   {
     title: "Build a Safe Viewing Space",
-    body: "We want GoFlix to be a platform where individuals, families, and communities can enjoy content with confidence, purpose, and peace of mind.",
+    body: "We want GoPremiere to be a platform where individuals, families, and communities can enjoy content with confidence, purpose, and peace of mind.",
     icon: "🛡️",
   },
   {
@@ -85,7 +85,7 @@ export default function Mission() {
           </h2>
 
           <p className="text-gray-300 leading-8 mb-5">
-            GoFlix was created with a simple belief: entertainment should not
+            GoPremiere was created with a simple belief: entertainment should not
             only capture attention, it should also inspire, uplift, and speak to
             the heart. We want to create a place where viewers can find stories
             that reflect faith, hope, purpose, family, courage, and positive
@@ -106,7 +106,7 @@ export default function Mission() {
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto leading-7">
               These are the values that guide what we are building and how we
-              want GoFlix to serve viewers, creators, and communities.
+              want GoPremiere to serve viewers, creators, and communities.
             </p>
           </div>
 
@@ -168,14 +168,14 @@ export default function Mission() {
           </h2>
 
           <p className="text-gray-400 leading-8 mb-5">
-            We want GoFlix to become a place where people can confidently search
+            We want GoPremiere to become a place where people can confidently search
             for content that aligns with their values. Our mission is to serve
             viewers who want entertainment that feels uplifting, intentional,
             and suitable for meaningful moments.
           </p>
 
           <p className="text-gray-400 leading-8">
-            From personal inspiration to family movie nights, GoFlix is being
+            From personal inspiration to family movie nights, GoPremiere is being
             built to support content discovery that goes beyond ordinary
             streaming.
           </p>
@@ -193,7 +193,7 @@ export default function Mission() {
           </h2>
 
           <p className="text-gray-400 leading-8 mb-5">
-            GoFlix also exists to create more opportunities for gospel
+            GoPremiere also exists to create more opportunities for gospel
             filmmakers, Christian creatives, ministries, churches, and
             inspirational storytellers. We want creators to have a platform
             where their work can be discovered by audiences who value it.
@@ -212,7 +212,7 @@ export default function Mission() {
           </h2>
 
           <p className="text-gray-400 max-w-3xl mx-auto leading-8 mb-8">
-            GoFlix is not just about watching content. It is about creating a
+            GoPremiere is not just about watching content. It is about creating a
             home for stories that inspire faith, encourage families, uplift
             communities, and give creators a place to share meaningful work.
           </p>
@@ -236,7 +236,7 @@ export default function Mission() {
                 border: "1px solid rgba(255,255,255,0.12)",
               }}
             >
-              Learn About GoFlix
+              Learn About GoPremiere
             </a>
           </div>
         </section>

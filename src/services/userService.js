@@ -1,10 +1,10 @@
-// ─── GoFlix User Service ─────────────────────────────────────────────────────
+// ─── GoPremiere User Service ─────────────────────────────────────────────────────
 // Watchlist + Watch History + Auth service layer (mock → real swap)
 
-const WATCHLIST_KEY = "goflix_watchlist";
-const HISTORY_KEY = "goflix_watch_history";
-const TOKEN_KEY = "goflix_token";
-const USER_KEY = "goflix_user";
+const WATCHLIST_KEY = "gopremiere_watchlist";
+const HISTORY_KEY = "gopremiere_watch_history";
+const TOKEN_KEY = "gopremiere_token";
+const USER_KEY = "gopremiere_user";
 
 const delay = (ms = 200) => new Promise((r) => setTimeout(r, ms));
 

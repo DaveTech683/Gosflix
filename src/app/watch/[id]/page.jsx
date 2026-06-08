@@ -128,7 +128,7 @@ export default function WatchPage({ params }) {
   // ── Fetch stream + movie detail on mount ─────────────────────────────────
   useEffect(() => {
     if (!id) return;
-    document.title = "Loading… — GoFlix";
+    document.title = "Loading… — GoPremiere";
 
     const token = getToken();
 
@@ -153,7 +153,7 @@ export default function WatchPage({ params }) {
           .slice(0, 6);
         setRelated(rel);
 
-        document.title = `Watch ${detail?.title || ""} — GoFlix`;
+        document.title = `Watch ${detail?.title || ""} — GoPremiere`;
 
         // Seek to resume position once video loads
         if (resumeFrom > 0) {

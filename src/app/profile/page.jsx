@@ -82,7 +82,7 @@ export default function ProfilePage() {
   const [history, setHistory]     = useState([]);
 
   useEffect(() => {
-    document.title = "My Profile — GoFlix";
+    document.title = "My Profile — GoPremiere";
 
     // Don't redirect until initialize() has settled
     if (isInitializing) return;
@@ -464,7 +464,7 @@ export default function ProfilePage() {
                     fontFamily: "Inter, sans-serif",
                   }}
                 >
-                  <LogOut size={16} /> Sign Out of GoFlix
+                  <LogOut size={16} /> Sign Out of GoPremiere
                 </button>
               </div>
             </div>
