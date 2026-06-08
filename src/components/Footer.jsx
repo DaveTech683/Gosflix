@@ -91,7 +91,7 @@ export default function Footer() {
               >
                 Go
               </span>
-              <span className="text-2xl font-black text-white">Flix</span>
+              <span className="text-2xl font-black text-white">Premiere</span>
             </div>
             <p
               className="text-gray-500 text-xs leading-relaxed mb-6"

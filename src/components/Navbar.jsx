@@ -90,7 +90,7 @@ export default function Navbar() {
                 Go
               </span>
               <span className="text-2xl md:text-3xl font-black tracking-tight text-white">
-                Flix
+                Premiere
               </span>
             </div>
           </a>
